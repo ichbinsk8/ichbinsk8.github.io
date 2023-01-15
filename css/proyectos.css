@@ -1,0 +1,35 @@
+body{
+    background:linear-gradient(90deg,#cf7f66 0%, #f00a02 100%);
+    background-size: cover;
+   
+}
+
+.proyect{
+    
+    width: 560px;
+    height: 560px;
+    padding: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+}
+.proyec{
+    font-size: 20px;
+    list-style: none;
+    text-align:justify;
+    padding: 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+    font-size: 65px;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experiences.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <title>Laura.io</title>
+</head>
+<body>
+
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="" class="logo">
+                <img height="50px" width="50px" src="img/miFoto.jpg" alt="">
+                <div>Yo laura celis</div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img/hamburger-icon.svg" alt="Abrir menú">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="img/close-icon.svg" alt="Cerrar menú">
+                </button>
+              <li><a href="#profile" class="selected">Perfil</a></li>
+              <li><a href="#experience">Experiencia</a></li>
+              <li><a href="#skills">Habilidades</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+        <div class="horizontal-padding  vertical-padding">
+            <section class="profile" id="profile">
+                <div class="profile-info">
+                    <h1 class="profile-title">Hola soy,<br> Laura Celis</h1>
+                    <p class="profile-details">
+                        Soy una persona interesada en el Desarrollo web, principalmente el frontend, con experiencia en pequeños proyectos 
+                    </p>
+                   
+                    <button class="profile-btn"><a class="btn-pro" href="proyectos.html">Proyectos</a></button>
+                </div>
+                <span class="profile-img-section">
+                    <img class="profile-img" src="img/miFoto.jpg" alt="programador">
+                    <div class="profile-img-line"></div>
+                </span>
+            </section>
+        </div>
+
+        <section class="experiences" id="experience">
+            <img src="img/wave.svg" alt="división" class="wave">
+            <div class="experiences-body">
+               <h2 class="experiences-title">Experiencia y estudios</h2>
+               <div class="experiences-grid">
+
+                <div class="empty"></div>
+                <div class="line"></div>
+
+                <!-- <div class="experience">
+                    <div class="experience-date">2017-2019</div>
+                    <div class="experience-company">Indoamericana</div>
+                    <div class="experience-position">Técnico en mantenimiento de aronaves</div>
+                    <<div class="experience-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam eos ex natus itaque minus veniam ut at mollitia, temporibus minima.</div> 
+                 </div> -->
+                <div class="experience experience_right">
+                    <div class="experience-date">2021-2020</div>
+                    <div class="experience-company">SENA</div>
+                    <div class="experience-position">Desarrollo de software</div>
+                    <!-- <div class="experience-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam eos ex natus itaque minus veniam ut at mollitia, temporibus minima.</div> -->
+                </div>
+                <div class="experience">
+                    <div class="experience-date">2021-En curso</div>
+                    <div class="experience-company">UNAD</div>
+                    <div class="experience-position"> ingeniería electrónica</div>
+                    <!-- <div class="experience-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam eos ex natus itaque minus veniam ut at mollitia, temporibus minima.</div> -->
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+
+                <div class="experience">
+                    <div class="experience-date">2019-2021</div>
+                    <div class="experience-company">Avianca</div>
+                    <div class="experience-position">Aprendiz tecnicó</div>
+                    <div class="experience-description">Apoyo al mantenimiento de aeronaves, inventario almacén, ayudante en el área administrativa, ayudante taller ruedas y frenos</div>
+                </div>
+               </div> 
+            </div>
+            <img src="img/wave.svg" alt="división" class="wave wave_bottom">
+        </section>
+
+       <div class="horizontal-padding  vertical-padding">
+         <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">javaScript</li>
+                <li class="skills-skill">PHP</li>
+                <li class="skills-skill">MySQL</li>
+                <li class="skills-skill">C++</li>
+                <li class="skills-skill">Python</li>
+            </ul>
+         </section>
+       </div>
+
+       <section class="contact vertical-padding" id="contact">
+        <img src="img/wave.svg" alt="división" class="wave">
+        <div class="contact-body">
+        <h2 class="contact-title">Contacto</h2>
+        <ul>
+            <li class="contact-list">TEL: +57 3222434131</li>
+            <li class="contact-list">@: catacelis24@gmail.com</li>
+        </ul>
+        </div>
+       </section>
+
+      
+   <script defer src="js/app.js"></script>
+   
+</body>
+</html>
